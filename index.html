@@ -78,7 +78,7 @@
     background: linear-gradient(135deg, rgba(27,130,151,0.3), transparent);
   }
 
-  .logo-icon svg { width: 24px; height: 24px; fill: var(--teal); }
+  .logo-icon svg { width: 24px; height: 24px; stroke: var(--teal); fill: none; }
 
   .logo-text {
     font-family: 'Orbitron', sans-serif;
@@ -967,8 +967,12 @@
 <nav>
   <a href="#" class="logo">
     <div class="logo-icon">
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18"/>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+        <rect x="7" y="7" width="10" height="10" rx="1"/>
+        <path d="M9 7V4M12 7V4M15 7V4"/>
+        <path d="M9 20v-3M12 20v-3M15 20v-3"/>
+        <path d="M7 9H4M7 12H4M7 15H4"/>
+        <path d="M20 9h-3M20 12h-3M20 15h-3"/>
       </svg>
     </div>
     <span class="logo-text">SYITECH <span>GROUP</span></span>
